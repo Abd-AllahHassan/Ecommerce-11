@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Hind+Vadodara:wght@300;400;500;600;700&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inika:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif+Gujarati:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* ========== Typography ========== */
+  --font-lato: "Lato", serif;
+  --font-ibm-plex-sans: "IBM Plex Sans", serif;
+  --font-inika: "Inika", serif;
+  --font-hind-vadodara: "Hind Vadodara", serif;
+  --font-inter: "Inter", serif;
+  --font-cabin-condensed: "Cabin Condensed", serif;
+  --font-noto-serif-gujarati: "Noto Serif Gujarati", serif;
+  --font-ibm-plex-sans-condensed: "IBM Plex Sans Condensed", serif;
+  --font-encode-sans-semi-condensed: "Encode Sans Semi Condensed", serif;
+  /* ========== Colors ========== */
+  /* Main */
+  --color-primary-dark: #131921;
+  --color-secondary-dark: #232f3e;
+  --color-primary-white: #ffffff;
+  --color-primary-black: #000000;
+  /* Gray */
+  --color-gray-950: #131a22;
+  --color-gray-900: #37475a;
+  --color-gray-800: #565959;
+  --color-gray-700: #5c5c5c;
+  --color-gray-600: #717171;
+  --color-gray-500: #787878;
+  --color-gray-400: #7f7f7f;
+  --color-gray-300: #999999;
+  --color-gray-200: #b4b4b4;
+  --color-gray-100: #d9d9d9;
+  --color-section: #575757;
+
+  /* Orange & Yellow */
+  --color-orange-dark: #de7921;
+  --color-orange: #ff9900;
+  --color-orange-light: #ffd814;
+  --color-yellow: #ffcc00;
+  /* Blue */
+  --color-blue-dark: #1f8394;
+  --color-blue: #2a8fd7;
+  /* Status Colors */
+  --color-red: #b12704;
+  --color-green: #71ed58;
+}
+
+button {
+  @apply cursor-pointer
+}
+
+@keyframes type {
+  from {
+    box-shadow: inset -3px 0px 0px #888;
+  }
+
+  to {
+    box-shadow: inset -3px 0px 0px transparent;
+  }
+}
